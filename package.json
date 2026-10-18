@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-patent-maintenance-fees",
+  "version": "0.1.0",
+  "description": "USPTO Patent Maintenance Fee Events — complements the `patents` pack (fleet #3258), which has prosecution events and assignments but cannot say whether a US patent is still in force.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-patent-maintenance-fees": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "patent-maintenance-fees"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-patent-maintenance-fees.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-242371c4d95022ffac54b9c85f8991001b9e4aab76037fa7432e53530a127ad9",
+    "sourceCommit": "514e3efb42b8d81082c07e01d3ae7654bbf91f52"
+  }
+}
