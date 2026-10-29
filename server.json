@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/patent-maintenance-fees",
   "title": "Patent Maintenance Fees",
   "description": "USPTO Patent Maintenance Fee Events — complements the `patents` pack (fleet #3258), which has…",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/patent-maintenance-fees",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-patent-maintenance-fees",
