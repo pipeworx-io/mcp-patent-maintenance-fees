@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-patent-maintenance-fees",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "USPTO Patent Maintenance Fee Events — complements the `patents` pack (fleet #3258), which has prosecution events and assignments but cannot say whether a US patent is still in force.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "patent-maintenance-fees",
     "gatewaySlug": "patent-maintenance-fees",
-    "sourceHash": "v1-1f62dcba86c148010e6bc59a4659abcbd0f02a6278d5c7da54c18b42ecb36743",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-3a9a269740689d34bfed1ba60c726698b637801a2f7445e5c6e3e6ba88b52759",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
